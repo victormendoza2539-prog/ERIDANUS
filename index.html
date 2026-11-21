@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ERIDANUS | Gabinete de Curiosidades</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <div class="eyebrow">✦ Colecciones para mentes curiosas ✦</div>
+      <h1>ERIDANUS</h1>
+      <p class="subtitle">Gabinete de Curiosidades</p>
+      <p class="hero-copy">Objetos extraordinarios para explorar el universo, la Tierra y la historia natural.</p>
+      <nav aria-label="Secciones"><a href="#gabinete">El Gabinete</a><a href="#inventario">Inventario</a><a href="#observatorio">Observatorio</a></nav>
+    </div>
+  </header>
+  <main class="container">
+    <section id="gabinete" class="section">
+      <div class="section-head"><div><p class="kicker">LA COLECCIÓN</p><h2>Explora nuestras curiosidades</h2></div><span id="totalProductos" class="counter">Cargando…</span></div>
+      <div class="filters"><label for="filtroCategoria">Colección</label><select id="filtroCategoria"><option value="">Todas las categorías</option></select><label for="busqueda">Buscar</label><input id="busqueda" type="search" placeholder="Astrolabio, fósil, telescopio…"></div>
+      <p id="mensaje" class="message" role="status" aria-live="polite"></p>
+      <div id="catalogo" class="catalogo" aria-live="polite"></div>
+    </section>
+    <section id="observatorio" class="section observatorio">
+      <div class="section-head"><div><p class="kicker">DATOS DEL GABINETE</p><h2>El Observatorio de ERIDANUS</h2></div><button id="actualizarObservatorio" class="btn primary" type="button">Actualizar indicadores</button></div>
+      <p id="mensajeObservatorio" class="message" role="status" aria-live="polite">Consultando las ventas…</p>
+      <div class="kpi-grid">
+        <article class="kpi-card"><span>Ingresos acumulados</span><strong id="kpiIngresos">—</strong></article>
+        <article class="kpi-card"><span>Transacciones</span><strong id="kpiTransacciones">—</strong></article>
+        <article class="kpi-card"><span>Unidades vendidas</span><strong id="kpiUnidades">—</strong></article>
+        <article class="kpi-card"><span>Ticket promedio</span><strong id="kpiTicket">—</strong></article>
+      </div>
+      <div class="producto-estrella"><span>✦ Producto más vendido</span><strong id="kpiEstrella">—</strong></div>
+      <div class="graficas-grid">
+        <article class="panel grafica-panel"><h3>Ingresos por producto</h3><p>Comparación de ingresos registrados en ventas.csv</p><div class="canvas-wrap"><canvas id="graficaProductos" role="img" aria-label="Gráfica de barras de ingresos por producto"></canvas></div></article>
+        <article class="panel grafica-panel"><h3>Ingresos por colección</h3><p>Participación de cada categoría en las ventas</p><div class="canvas-wrap"><canvas id="graficaCategorias" role="img" aria-label="Gráfica de dona de ingresos por categoría"></canvas></div></article>
+      </div>
+    </section>
+    <section id="inventario" class="section admin">
+      <div class="section-head"><div><p class="kicker">ADMINISTRACIÓN</p><h2>Inventario del gabinete</h2></div></div>
+      <div class="admin-grid">
+        <form id="formProducto" class="panel">
+          <h3>Registrar producto</h3>
+          <label for="nombre">Nombre</label><input id="nombre" required maxlength="150">
+          <label for="categoria">Categoría</label><input id="categoria" placeholder="Astronomía">
+          <label for="precio">Precio (MXN)</label><input id="precio" type="number" min="0.01" step="0.01" required>
+          <label for="cantidad">Existencias</label><input id="cantidad" type="number" min="0" step="1" required>
+          <label for="descripcion">Descripción</label><textarea id="descripcion" rows="3"></textarea>
+          <label for="imagen">Ruta de imagen (opcional)</label><input id="imagen" placeholder="img/mi_producto.jpg">
+          <button type="submit" class="btn primary">Guardar producto</button>
+        </form>
+        <div class="panel table-wrap"><h3>Productos registrados</h3><table><thead><tr><th>ID</th><th>Producto</th><th>Precio</th><th>Stock</th><th>Acción</th></tr></thead><tbody id="tablaProductos"></tbody></table></div>
+      </div>
+    </section>
+  </main>
+  <footer>ERIDANUS · Gabinete de Curiosidades · Proyecto académico de Programación IV</footer>
+</body>
+</html>

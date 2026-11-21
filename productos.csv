@@ -1,0 +1,21 @@
+﻿id,nombre,categoria,precio,cantidad,descripcion,imagen
+1,Esfera armilar de latón,Astronomía,1850.0,4,"Modelo decorativo de los círculos de la esfera celeste, ideal para explorar la astronomía clásica.",img/esfera_armilar.jpg
+2,Telescopio refractor,Astronomía,3200.0,3,Instrumento óptico refractor para iniciarse en la observación de objetos celestes.,img/telescopio_refractor.jpg
+3,Carta de la bóveda celeste,Astronomía,590.0,10,Carta ilustrada de estrellas y constelaciones para conocer la bóveda celeste.,img/carta_celeste.jpg
+4,Astrolabio de latón,Astronomía,1250.0,5,Reproducción didáctica de un instrumento histórico para estudiar posiciones de los astros.,img/astrolabio.jpg
+5,Rompecabezas 3D de T. rex,Paleontología,420.0,12,Rompecabezas tridimensional para armar un esqueleto de Tyrannosaurus rex.,img/trex_3d.jpg
+6,Rompecabezas 3D de mamut,Paleontología,450.0,10,Modelo tridimensional ensamblable de un mamut prehistórico.,img/mamut_3d.jpg
+7,Bloques de construcción de Triceratops,Paleontología,520.0,8,Set de bloques para construir un Triceratops y explorar la anatomía de los dinosaurios.,img/triceratops_bloques.jpg
+8,Réplica de trilobite,Paleontología,280.0,11,"Réplica decorativa de un trilobite, artrópodo característico de los mares paleozoicos.",img/trilobite.jpg
+9,Globo terráqueo de escritorio,Geografía y exploración,750.0,7,"Globo terráqueo para consultar continentes, océanos y referencias geográficas.",img/globo_terraqueo.jpg
+10,Brújula de explorador,Geografía y exploración,390.0,10,Brújula portátil para practicar orientación y lectura de rumbos.,img/brujula.jpg
+11,Maqueta de México-Tenochtitlan,Arqueología e historia,1250.0,4,Maqueta didáctica inspirada en la ciudad mexica de México-Tenochtitlan.,img/tenochtitlan.jpg
+12,Maqueta de Chichén Itzá,Arqueología e historia,890.0,5,Maqueta arquitectónica inspirada en el sitio maya de Chichén Itzá.,img/chichen_itza.jpg
+13,Kit de modelos moleculares,Ciencias naturales,680.0,8,"Kit de piezas para representar moléculas, enlaces y estructuras químicas.",img/modelos_moleculares.jpg
+14,Juego educativo de laboratorio,Ciencias naturales,950.0,6,Juego educativo para introducir conceptos y materiales básicos de laboratorio.,img/juego_laboratorio.jpg
+15,Lupa de naturalista,Geografía y exploración,250.0,12,"Lupa de mano para observar detalles de hojas, minerales y pequeños organismos.",img/lupa_naturalista.jpg
+16,Taza de las eras geológicas,Coleccionables,290.0,15,Taza ilustrada con referencias a las eras y periodos de la historia geológica.,img/taza_eras_geologicas.jpg
+17,Taza de la tabla periódica,Coleccionables,290.0,15,Taza temática con diseño de la tabla periódica de los elementos.,img/taza_tabla_periodica.jpg
+18,Taza del mapa celeste,Coleccionables,320.0,15,"Taza con ilustraciones de estrellas, constelaciones y cartografía celeste.",img/taza_mapa_celeste.jpg
+19,Microscopio óptico compuesto,Ciencias naturales,2850.0,3,Microscopio óptico compuesto para observar preparaciones con aumentos variables.,img/microscopio.jpg
+20,Gafas para observación de eclipses,Astronomía,180.0,17,Gafas para observación solar; su uso seguro requiere filtros certificados para eclipses.,img/gafas_eclipse.jpg
