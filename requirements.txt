@@ -1,0 +1,10 @@
+
+fastapi
+uvicorn
+pandas
+numpy
+polars
+apscheduler>=3.10,<4
+requests
+locust
+tzdata

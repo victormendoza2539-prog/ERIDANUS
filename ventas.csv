@@ -1,4 +1,1 @@
-﻿fecha,producto_id,producto,precio,cantidad,total
-2026-11-20T21:13:55,20,Gafas para observación de eclipses,180.0,2,360.0
-2026-11-20T22:24:50,20,Gafas para observación de eclipses,180.0,1,180.0
-2026-11-20T22:59:45,8,Réplica de trilobite,280.0,1,280.0
+id_venta,fecha,producto,precio,cantidad,monto_total
